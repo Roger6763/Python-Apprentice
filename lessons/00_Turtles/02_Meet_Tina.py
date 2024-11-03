@@ -10,12 +10,7 @@ window.
 
 """
 
-import turtle                           # Tell Python we want to work with the turtle
-turtle.setup(width=600, height=600)     # Set the size of the window
-
-tina = turtle.Turtle()                  # Create a turtle named tina
-
-tina.shape('turtle')                    # Set the shape of the turtle to a turtle
+import turtle                           # Tto a turtle
 tina.speed(2)                           # Make the turtle move as fast, but not too fast.
 
 tina.pencolor('blue')                   # Set the pen color to blue
@@ -40,7 +35,12 @@ tina.left(90)                           # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
 tina.write("Why, hello there!")         # Write the message "Why, hello there!"
 tina.backward(20)                       # Move tina backward by 20
+ell Python we want to work with the turtle
+turtle.setup(width=600, height=600)     # Set the size of the window
 
+tina = turtle.Turtle()                  # Create a turtle named tina
+
+tina.shape('turtle')                    # Set the shape of the turtle 
 tina.goto(-50,0)
 tina.pendown()
 tina.color('red')                       # Set the color of tina to red

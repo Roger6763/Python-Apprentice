@@ -19,7 +19,18 @@ tina = turtle.Turtle()                  # Create a turtle named tina
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
 
-... # Your code here
+tina.fillcolor("red")
+tina.begin_fill()
+tina.circle(50)
+tina.end_fill()
+
+tina.penup()
+tina.goto(100,100)
+tina.pendown()
+tina.fillcolor("green")
+tina.begin_fill()
+tina.circle(50)
+tina.end_fill()
 
 turtle.exitonclick()                    # Close the window when we click on it
 
