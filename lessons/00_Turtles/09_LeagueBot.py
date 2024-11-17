@@ -16,15 +16,26 @@ screen.setup(width=600, height=600)
 screen.bgcolor('white')
 
 t = turtle.Turtle()
-t.turtlesize(stretch_wid=10, stretch_len=10, outline=4)
+t.turtlesize(stretch_wid=5, stretch_len=5, outline=2)
 def set_turtle_image(turtle, image_name):
    
     from pathlib import Path
     image_dir = Path(__file__).parent / "images"
     image_path = str(image_dir / image_name)
 
+    print(image_path)
     screen = turtle.getscreen()
     screen.addshape(image_path)
     turtle.shape(image_path)
    
-set_turtle_image(turtle, "pikachu.gif")
+set_turtle_image(t, "leaguebot_bolt.gif")
+t.pencolor("blue")
+t.penup()
+t.goto(-240,-240)
+t.pendown()
+for i in range(4):
+    t.forward(500)
+    t.left(90)
+    
+
+turtle.done()
