@@ -42,7 +42,7 @@ for i in range(25):
 
     t.forward(64) 
 
-    t.left(40) 
+    t.left(70) 
 
     t.forward(flameSize) 
 
