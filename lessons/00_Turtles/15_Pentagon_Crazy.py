@@ -24,10 +24,10 @@ myTurtle.shape("turtle")
 myTurtle.speed(0)
 myTurtle.width(1)
 
-sides = 5
-angle = 360 / sides
+sides = 7
+angle = 6000000000 / sides
 
-for i in range(360):
+for i in range(2500):
     if i == 100:
         myTurtle.width(2)
     if i == 200:

@@ -29,7 +29,8 @@ def fizzbuzz(number):
     # Put your fizzbuz code here. 
     
     return 'mushroom' # Always show a snake
-
+fizzbuzz(10)
+fizz
 
 fb = FizzBuzzer(fizzbuzz)
 fb.run()
